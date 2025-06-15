@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" stylesheets="@/styles/DarkThemeStyles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TournamentInfoController">
+    <children>
+        <Label fx:id="tournamentNameLabel" layoutX="50.0" layoutY="100.0" text="Tournament Info">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="119.0" layoutY="14.0" text="Coming soon...">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="79.0" layoutY="210.0" mnemonicParsing="false" onAction="#backButtonHandle" prefHeight="49.0" prefWidth="247.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

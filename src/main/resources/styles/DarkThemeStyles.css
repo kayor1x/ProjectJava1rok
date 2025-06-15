@@ -1,0 +1,130 @@
+/* Load Open Sans from Google Fonts (background solution for JavaFX) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.gstatic.com/s/opensans/v34/mem8YaGs126MiZpBA-UFUK0Udc1UAw.ttf');
+}
+
+.root {
+    -fx-font-family: 'Open Sans', Arial, sans-serif;
+    -fx-background-color: #181818;
+    -fx-text-fill: #e0e0e0;
+}
+.label {
+    -fx-text-fill: #e0e0e0
+}
+.combo-box {
+    -fx-background-color: #232323;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #8B262B;
+    -fx-border-radius: 3;
+    -fx-font-size: 13px;
+}
+
+
+.button {
+    -fx-background-color: linear-gradient(#A51C22, #86171B);
+    -fx-text-fill: #FAE3EA;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5 5 5 5;
+    -fx-padding: 8 18;
+    -fx-font-size: 13px;
+}
+
+.button:hover {
+    -fx-background-color: #C0392B;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #232323;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #8B262B;
+    -fx-border-radius: 3;
+}
+
+.list-view {
+    -fx-background-color: #22282C;
+    -fx-border-color: #3A1E1E;
+    -fx-control-inner-background: #22282C;
+    -fx-font-size: 13px;
+    -fx-text-fill: #e0e0e0;
+    -fx-scroll-bar: #22282C;
+}
+.list-view .scroll-bar:vertical,
+.list-view .scroll-bar:horizontal {
+    -fx-background-color: #181818;
+}
+.list-view .thumb {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4px;
+}
+.list-view .track {
+    -fx-background-color: #232323;
+    -fx-background-radius: 4px;
+}
+.list-view .increment-button, .list-view .decrement-button {
+    -fx-background-color: #232323;
+    -fx-background-radius: 4px;
+}
+.list-view .list-cell {
+    -fx-background-color: #22282C;
+    -fx-text-fill: #e0e0e0;
+    -fx-padding: 10;
+    -fx-wrap-text: true;
+    -fx-white-space: pre-wrap;
+}
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #3A1E1E;
+}
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #2A2E32;
+}
+
+.grid-pane {
+    -fx-background-color: #181818;
+    -fx-padding: 10;
+}
+
+.anchor-pane, .vbox, .hbox, .grid-pane {
+    -fx-background-color: #181818;
+}
+
+.dialog-pane, .context-menu, .menu-item, .menu {
+    -fx-background-color: #232323;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-family: 'Open Sans', Arial, sans-serif;
+}
+.dialog-pane .content.label, .dialog-pane .header-panel .label {
+    -fx-text-fill: #e0e0e0;
+}
+.dialog-pane .button-bar .button {
+    -fx-background-color: linear-gradient(#A51C22, #86171B);
+    -fx-text-fill: #FAE3EA;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5 5 5 5;
+    -fx-padding: 8 18;
+    -fx-font-size: 13px;
+}
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #C0392B;
+    -fx-text-fill: #ffffff;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: #232323;
+}
+.dialog-pane .graphic-container {
+    -fx-background-color: transparent;
+}
+.dialog-pane .content {
+    -fx-background-color: #232323;
+}
+.grid-pane {
+    -fx-background-color: #232323;
+    -fx-padding: 10;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+}

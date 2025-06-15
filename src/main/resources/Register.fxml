@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="controllers.RegisterController" stylesheets="@/styles/DarkThemeStyles.css">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <padding>
+                <Insets bottom="40" left="40" right="40" top="40" />
+            </padding>
+            <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Register" />
+            <TextField fx:id="usernameField" promptText="Username" />
+            <PasswordField fx:id="passwordField" promptText="Password" />
+            <HBox spacing="10">
+                <Label text="Role:" />
+                <ComboBox fx:id="roleComboBox" />
+            </HBox>
+            <TextField fx:id="adminCodeField" managed="false" promptText="Admin Code" visible="false" />
+            <HBox spacing="10">
+                <Button fx:id="registerButton" onAction="#handleRegister" text="Register" />
+                <Button fx:id="backButton" onAction="#handleBack" prefHeight="25.0" prefWidth="67.0" text="Back" />
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="/styles/DarkThemeStyles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TournamentSelectionController">
+   <children>
+      <Label fx:id="choiceLabel" layoutX="137.0" layoutY="60.0" prefHeight="51.0" prefWidth="279.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Select to start" />
+      <ListView fx:id="listTournaments" accessibleRole="LIST_ITEM" layoutX="149.0" layoutY="122.0" prefHeight="200.0" prefWidth="200.0" />
+      <HBox layoutX="149.0" layoutY="340.0" spacing="10">
+         <Button fx:id="startButton" mnemonicParsing="false" onAction="#handleStartButton" text="Start" />
+         <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      </HBox>
+      <Label fx:id="userInfoLabel" alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" prefWidth="300.0" style="-fx-font-size: 12px; -fx-font-weight: regular;" />
+      <Label fx:id="userRoleLabel" alignment="CENTER_RIGHT" layoutX="450.0" layoutY="10.0" prefWidth="140.0" style="-fx-font-size: 14px; -fx-font-weight: bold;" />
+      <Button fx:id="addTournamentButton" layoutX="350.0" layoutY="152.0" managed="false" mnemonicParsing="false" onAction="#handleAddTournament" text="Add Tournament" visible="false" />
+      <Button fx:id="removeTournamentButton" layoutX="350.0" layoutY="252.0" managed="false" mnemonicParsing="false" onAction="#handleRemoveTournament" text="Remove Tournament" visible="false" />
+      <Button fx:id="editTournamentButton" layoutX="350.0" layoutY="202.0" managed="false" mnemonicParsing="false" onAction="#handleEditTournament" text="Edit Tournament" visible="false" />
+   </children>
+</AnchorPane>
