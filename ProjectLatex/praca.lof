@@ -1,0 +1,27 @@
+\babel@toc {polish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Struktura całego projektu }}{8}{figure.caption.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Baza danych }}{9}{figure.caption.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Metody kontrolerów }}{11}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pola i dziedziczenie klas, każda klasa ma gettery i settery, a także metodę ToString }}{21}{figure.caption.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram Gantta }}{23}{figure.caption.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ekran powitalny }}{24}{figure.caption.6}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Ekran logowania }}{24}{figure.caption.7}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Błedne i Udane logowania: \subref {subfigure_a} Empty fields error, \subref {subfigure_b} Invalid login data(nieznaleziono w db), \subref {subfigure_c} Successful login. }}{25}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Ekran rejestracji z wybranym User }}{25}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ekran rejestracji z wybranym Admin }}{26}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Błedne i Udane rejestracji: \subref {subfigure_a} Empty fields error, \subref {subfigure_b} Invalid admin code, \subref {subfigure_c} User already exists, \subref {subfigure_d} Successful registration. }}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Gdy klikasz na turniej górny label zmienia się }}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Gdy klikasz start, prosi o wyborze turnieju }}{27}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Ekran wyboru turnieju jako User }}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Ekran wyboru turnieju jako Admin }}{27}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Gdy klikasz add, otwiera się okno z formularzem do dodania turnieju }}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Gdy klikasz remove, wyrzuca go z bazy danych i tabeli, zmienia się górny label }}{28}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Formularz do dodania lub edycji turnieju: \subref {subfigure_name}, \subref {fig:tournament_selection_fxml_edit}, \subref {fig:tournament_selection_fxml_add_offline}. }}{28}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Edycja turnieju: \subref {subfigure_name}, \subref {fig:tournament_selection_fxml_edit}. }}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Ekran informacji o turnieju: \subref {subfigure_name}, \subref {fig:tournament_selection_fxml_edit}. }}{29}{figure.caption.20}%
+\addvspace {10\p@ }

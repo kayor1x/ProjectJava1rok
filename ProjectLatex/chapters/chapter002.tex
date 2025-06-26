@@ -1,0 +1,27 @@
+\chapter{Opis założeń Projektu}
+\label{cha:opisZalozenProjektu}
+
+\section{Cel, problem, kroki realizacji projektu}
+
+Celem projektu jest stworzenie aplikacji do zarządzania turniejami DOTA 2, która umożliwi organizatorom kompleksowe zarządzanie danymi.  Projekt rozwiązuje problem braku wygodnego, zintegrowanego narzędzia desktopowego umożliwiającego sprawne zarządzanie danymi dotyczącymi organizacji i przebiegu turniejów e-sportowych, zwłaszcza w przypadku gry DOTA 2.  Źródłem problemu jest brak aplikacji desktopowej ze względu na trudności zarządzania wieloma powiązanymi ze sobą podmiotami, co często prowadzi do rozproszenia danych oraz trudności w ich aktualizacji i analizie.
+
+Aby rozwiązać ten problem, konieczne było zaprojektowanie i wdrożenie aplikacji, która zapewnia centralizację danych, intuicyjny interfejs użytkownika oraz możliwość łatwego dodawania, edytowania i usuwania informacji o wszystkich kluczowych elementach turnieju. Musiałem upewnić się, że baza danych ma odpowiednią strukturę, że jest zintegrowana z graficznym interfejsem użytkownika oraz że system jest bezpieczny i wydajny.
+
+Analiza wymagań, projektowanie bazy danych i interfejsu, implementacja funkcjonalności, testowanie i wdrożenie to kroki, które zostały podjęte w ramach projektu.
+
+\section{Wymagania:}
+\subsection{Funkcjonalne}
+
+\begin{itemize}
+    \item Możliwość dodawania, edytowania i usuwania turniejów.
+    \item Przeglądanie listy turniejów oraz szczegółowych informacji o każdym z nich.
+    \item Autoryzacja użytkowników i zarządzanie poziomami dostępu.
+    \item Wybór typu turnieju (jeżeli offline - trzeba wprowadzić lokalizację) i organizatora turnieju z listy dostępnych (tylko dla administratora).
+\end{itemize}
+\subsection{Niefunkcjonalne}
+\begin{itemize}
+    \item Intuicyjny, z odpowiednią estetyką (temat DOTA2) interfejs.
+    \item Bezpieczeństwo przechowywanych danych (uwierzytelnianie, autoryzacja, hashowanie haseł).
+    \item Łatwość utrzymania i rozbudowy systemu.
+    \item Łatwość wprowadzania zmian w bazie danych i aplikacji.
+\end{itemize}

@@ -1,0 +1,8 @@
+\contentsline {lstlisting}{\numberline {3.1}{\ignorespaces Main: jak zaczyna się program}}{9}{lstlisting.3.1}%
+\contentsline {lstlisting}{\numberline {3.2}{\ignorespaces Klasa HibernateUtil: odpowiedzialna za konfigurację bazy danych}}{10}{lstlisting.3.2}%
+\contentsline {lstlisting}{\numberline {3.3}{\ignorespaces Klasa AuthService: autoryzacja z wyszukiwaniem w bazie konta i dehashowaniem hasła BCryptem}}{10}{lstlisting.3.3}%
+\contentsline {lstlisting}{\numberline {3.4}{\ignorespaces Klasa AuthService: rejestracja ze sprawdzeniem czy istnieje już konto i hashowanie hasła nowego użytkownika}}{10}{lstlisting.3.4}%
+\contentsline {lstlisting}{\numberline {3.5}{\ignorespaces Klasa LoginController: handleBack i handleRegister - przekazania na nowe strony; handleLogin - logowanie użytkownika z wykorzystaniem wyżej opisanym AuthService dla autentyfikacji usera i przy poprawnych danych - przekazanie na nową stronę}}{11}{lstlisting.3.5}%
+\contentsline {lstlisting}{\numberline {3.6}{\ignorespaces Klasa RegisterController: handleRegister - rejestracja nowego użytkownika z wykorzystaniem AuthService; umożliwia rejestrację jako Admin za pomocy sprawdzenia adminCodeField (admin code}}{13}{lstlisting.3.6}%
+\contentsline {lstlisting}{\numberline {3.7}{\ignorespaces Klasa TournamentSelectionController: w tej klasie przy inicjalizację jest kontrola roli użytkownika i zrealizowane CRUD na turniejach(używamy HibernateUtil opisany wyżej); W przyszłości ulepszę tę klasę}}{14}{lstlisting.3.7}%
+\contentsline {lstlisting}{\numberline {3.8}{\ignorespaces Przykład mapowania klas na klasie Tournaments}}{21}{lstlisting.3.8}%
